@@ -32,7 +32,7 @@ const Mode = ({ handleMode }: IModeProps) => {
             <label htmlFor="code"></label>
             <input
               name="code"
-              className="w-full h-[3rem] px-3 rounded-md outline-none text-[0.9rem] placeholder:text-[0.9rem]"
+              className="w-full h-[3rem] px-3 rounded-md outline-none text-[0.9rem] placeholder:text-[0.9rem] placeholder:font-semibold"
               type="text"
               placeholder="Enter code"
               onChange={(e) => setCode(e.target.value)}
